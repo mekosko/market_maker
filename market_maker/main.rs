@@ -1,6 +1,6 @@
-use uniswap_v2::{UniswapV2Factory, UniswapV2Pool};
+use uniswap::{UniswapV2Factory, UniswapV2Pool};
 
-pub mod uniswap_v2;
+pub mod uniswap;
 
 pub enum MarketMakerFactory {
 	UniswapV2Factory(UniswapV2Factory),
