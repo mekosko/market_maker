@@ -11,3 +11,9 @@ license = "Apache-2.0"
 edition = "2021"
 
 [dependencies]
+ethers-contract = { version = "2", features = [
+    "abigen",
+], default-features = false }
+
+ethers-core = { version = "2", default-features = false }
+serde = { version = "1", features = ["derive"] }
